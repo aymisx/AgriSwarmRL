@@ -18,15 +18,15 @@ AgriSwarmRL is a research-driven project exploring how semantic segmentation of 
 
 ## Folder Structure
 AgriSwarmRL/
-├── data/                                                                 # Input Sentinel/Drone images (RGB)
+├── data/                                                                # Input Sentinel/Drone images (RGB)
 ├── ndvi_seg/
-│   ├── ndvi_demo.ipynb (finalized)                                       # NDVI/VARI explainer (single image)
+│   ├── ndvi_demo.ipynb (finalized)                                      # NDVI/VARI explainer (single image)
 │   └── ndvi_segmentation_satellite.ipynb # Batch pipeline (finalized)
-├── webots_sim/                                                           # Drone simulation (future)
+├── webots_sim/                                                          # Drone simulation (future)
 ├── rl_agent/
-│   └── ppo_agent.ipynb                                                   # PPO integration (future)
-├── results/                                                              # Masks, overlays, visualizations
-├── utils/                                                                # Helper functions (future expansion)
+│   └── ppo_agent.ipynb                                                  # PPO integration (future)
+├── results/                                                             # Masks, overlays, visualizations
+├── utils/                                                               # Helper functions (future expansion)
 ├── README.md
 ├── requirements.txt
 └── .gitignore
