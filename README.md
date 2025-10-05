@@ -51,7 +51,7 @@ AgriSwarmRL/
 Install all dependencies:
 pip install -r requirements.txt
 
-## Status
+## Current Status
 - Vegetation segmentation pipeline **complete & tested**
 Phase 2 + : In progress.
 - Outputs saved for RL integration
