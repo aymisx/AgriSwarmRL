@@ -1,7 +1,7 @@
 # AgriDroneRL – Drone Vision & Reinforcement Learning for Precision Farming
 
 ## Overview
-AgriSwarmRL is a research-driven project exploring how semantic segmentation of satellite/drone imagery and reinforcement learning (RL) can enable intelligent agricultural drone swarms. The current progress focuses on vegetation index computation (NDVI & VARI) from Sentinel Playground satellite images and simulated drone images (Webots). These indices provide the foundation for RL-based navigation and area coverage.
+AgriDroneRL is a research-driven project exploring how semantic segmentation of satellite/drone imagery and reinforcement learning (RL) can enable intelligent agricultural drone swarms. The current progress focuses on vegetation index computation (NDVI & VARI) from Sentinel Playground satellite images and simulated drone images (Webots). These indices provide the foundation for RL-based navigation and area coverage.
 
 ## Vision Module (Completed)
 
@@ -19,7 +19,7 @@ AgriSwarmRL is a research-driven project exploring how semantic segmentation of 
 - Modular pipeline: any new image dropped into `/data/` is auto-processed.
 
 ## Folder Structure
-AgriSwarmRL/
+AgriDroneRL/
 ├── data/                                                                # Input Sentinel/Drone images (RGB)
 ├── ndvi_seg/
 │   ├── ndvi_demo.ipynb (finalized)                                      # NDVI/VARI explainer (single image)
