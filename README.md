@@ -6,6 +6,7 @@ AgriSwarmRL is a research-driven project exploring how semantic segmentation of 
 ## Vision Module (Completed)
 
 **NDVI/VARI Segmentation:**
+
 - NDVI (Normalized Difference Vegetation Index) – requires NIR band.
 - VARI (Visible Atmospherically Resistant Index) – proxy for RGB-only data (Sentinel images).
 
